@@ -1,0 +1,13 @@
+Definations:
+Linked list are linear data structrures where elements are not stored in contigous locations and every elements
+is a separate object with a data and address part. The elements are linked using pointers and address. Each
+element is known as node. 
+
+Advantages: 
+
+Due to the dynamicity and ease of insertiona and deletions, they are prefred over arrays.
+
+Disadvantages:
+
+Node cannot accessed directly instead we need to start from the begining head and follow through the link to
+reach to a node we wish to access
