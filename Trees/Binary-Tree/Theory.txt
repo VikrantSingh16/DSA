@@ -1,0 +1,36 @@
+It is tree with rules applied to It
+Each node can only have 0,1,2 child nodes
+Each child can only have one friend
+
+Terminologies
+1. Perfect Binary Tree : A tree is complete filled that means all the leaf node are full
+a node can either have 0 or 2 children but cannot have 1 child 
+Perfect Binary are really efficient 
+2 properties
+1. The number of nodes double when we move to lower levels (2xnode(Uper Level))
+2. The number of node on the last node is equal on the sum of number of nodes on each level + 1 (all Nodes+1)
+
+2. Full Binary Tree : A node can either have 0 or 2 childrens
+
+height of the tree = 2^height-1
+
+Binary Search Tree Time Complexity
+insert: O(logn)
+delete: O(logn)
+lookup: O(logn)
+
+Rules for BST:
+1. All child node in the tree on the right to the root is greater than current node
+2. All child node in the left on the left to the root is lesser than current node
+3. A node can only have upto 2 nodes
+
+
+Problems with UnBalanced Tress : time Complexity can be decreased to O(n)
+
+Pros of BST
+1. faster than O(n)
+2. Dynamic
+3, Ordered
+
+cons of BST
+1. No O(1) operations
